@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.nav-container {
+    background-color: #FFFFFF;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    /* max-width: auto; */
+}
+
+.btn {
+    padding: 18px 20px;
+    background-image: linear-gradient(to right, rgb(250, 170, 20), rgb(233, 190, 111));
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, rgb(20, 250, 20), rgb(161, 227, 158));
+}
+
+/* .body{ */
+/* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); */
+/* } */
