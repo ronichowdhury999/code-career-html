@@ -1,36 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code-Carrer-html</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <style>
-        h2{
-            font-weight: bolder;
+        .title {
+            font-weight: bold;
+            font-size: 32px;
         }
-        span{
+
+        span {
             color: orange;
+        }
+
+        p {
+            padding: 20px 0px;
         }
     </style>
 </head>
+
 <body class="body">
     <!-- navbar -->
-    <section>
-        <nav class="nav-container">
-            <h2>Carrer<span class="">.io</span></h2>
+    <section style="background-color: #FFFFFF;">
+        <nav style="max-width: 1400px; margin: auto;" class="nav-container">
+            <h1 class="title">Career<span class="">.io</span></h1>
             <button class="btn">Download Resume</button>
         </nav>
     </section>
     <!-- banner -->
-    <section></section>
+    <section style="max-width: 1400px; margin: auto;">
+        <div class="banner-container">
+            <img class="banner-img" src="./assets/hero-developer.png" alt="">
+            <h1 class="title">"In 2025, I hope to become a Developer."</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi maxime ab sed. Eaque perspiciatis
+                similique alias labore ab aspernatur sint, obcaecati, quisquam eligendi, doloremque dolorem. Consectetur
+                mollitia fuga nam.</p>
+            <button class="btn">Let's Connect</button>
+        </div>
+    </section>
     <!-- Why Web Development?? -->
-    <section></section>
+    <section style="max-width: 1400px; margin: auto;">
+        <div class="webDevelopmentInfo-container">
+            <h1 class="title">Why Web Development??</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod debitis iusto tenetur, illo
+                molestiae neque facere quaerat consequuntur error reprehenderit, dicta minus eligendi dolorum voluptatum
+                atque enim, ipsam inventore.</p>
+        </div>
+        <div class="webDevelopmentMyInfo-container">
+            <div>
+                <h2 style="color: #1e2638d4;">i will Do Coding and Change The World</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolor vitae temporibus veritatis
+                    ratione quas facere dolore mollitia molestiae,</p>
+                <button class="btn">Let's Discuss</button>
+            </div>
+
+            <div>
+                <img class="working-developer-png" src="./assets/working-developer.png" alt="">
+            </div>
+        </div>
+    </section>
     <!-- My Inspiration -->
-    <section></section>
-    <!-- My Current Target -->
-    <section></section>
+    <section style="max-width: 1400px; margin: auto;">
+        <div class="myInspiration-container">
+            <h1>My Inspiration</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat doloremque culpa assumenda
+                <iframe style="padding:20px ;border: 2px solid gray; margin-top: 20px;" width="1100" height="620"
+                    src="https://www.youtube.com/embed/z3t37hz1yR0?si=gdiFWQ6RuA0Vc4hu" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- card section -->
+    <section style="max-width: 1400px; margin: auto;">
+        <p style="text-align: center;">I will complete my targets ontime and kickstart my career</p>
+        <div class="card-container">
+            <div class="card">
+                <div><img class="icon-png" src="./assets/html-icon.png" alt="html-icon">
+                    <h2 style="padding:10px 0px;">HTML</h2>
+                    <a style="color: black;" target="_blank" href="https://www.w3schools.com/html/">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div><img class="icon-png" src="./assets/css-icon.png" alt="css-icon">
+                    <h2 style="padding:10px 0px;">CSS</h2>
+                    <a style="color: black;" target="_blank" href="https://www.w3schools.com/css/">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div><img class="icon-png" src="./assets/tailwind-icon.png" alt="tailwind-icon">
+                    <h2 style="padding:10px 0px;">Tailwind</h2>
+                    <a style="color: black;" target="_blank" href="https://v2.tailwindcss.com/docs">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- footer -->
-    <section></section>
+    <section>
+        <footer class="footer-container">
+            <div>
+                <h3>An  Open  Commitment by___Rs Roni Chowdhury</h3>
+            </div>
+            <div style="display: flex; gap: 20px;">
+                <img class="socialIcon-png" src="./assets/facebook.png" alt="facebook">
+                <img class="socialIcon-png" src="./assets/github.png" alt="github">
+                <img class="socialIcon-png" src="./assets/linkedin.png" alt="linkedin">
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>

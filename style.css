@@ -1,21 +1,31 @@
 * {
     margin: 0;
 }
+.body {
+    background-image: linear-gradient(to top, #9DE5FF, #E6EDF9);
+    margin: auto;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
 
 .nav-container {
-    background-color: #FFFFFF;
-    border: 2px solid gray;
     display: flex;
     justify-content: space-between;
     padding: 20px 60px;
-    /* max-width: auto; */
+    align-items: center;
+}
+
+img {
+    width: 100%;
 }
 
 .btn {
-    padding: 18px 20px;
-    background-image: linear-gradient(to right, rgb(250, 170, 20), rgb(233, 190, 111));
+    padding: 14px 28px;
+    background-image: linear-gradient(to right, rgb(250, 170, 20), rgb(251, 213, 141));
     border: none;
+    font-weight: bold;
     border-radius: 8px;
+    box-shadow: 0px 4px 3px rgb(190, 190, 190);
 
 }
 
@@ -23,6 +33,71 @@
     background-image: linear-gradient(to right, rgb(20, 250, 20), rgb(161, 227, 158));
 }
 
-/* .body{ */
-/* background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); */
-/* } */
+/* banner section for css */
+.banner-container {
+    background-color: #E6EDF9;
+    margin: 60px 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 60px;
+
+}
+
+.banner-img {
+    width: 200px;
+}
+
+/* why web Development ?? */
+.webDevelopmentInfo-container {
+    margin: 60px 0px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* i will Do Coding and Change The World */
+.webDevelopmentMyInfo-container {
+    background-color: #E6EDF9;
+    margin: 20px 0px;
+    display: flex;
+    padding: 40px 50px;
+    border-radius: 10px;
+    align-items: center;
+}
+.working-developer-png {
+    width: 400px;
+}
+
+/* myInspiration-container */
+.myInspiration-container{
+    text-align: center;
+    margin:60px 40px ;
+}
+
+/* card section */
+.card-container{
+    margin: 100px 0px;
+    display: flex;
+    gap: 100px;
+}
+.icon-png{
+    width: 60px;
+}
+.card{
+    width: 30%;
+    padding: 30px 40px;
+    background-image: linear-gradient(to top, #9DE5FF, #E6EDF9);
+    box-shadow: 0px 4px 3px rgb(190, 190, 190);
+    border-radius: 20px;
+}
+
+/* footer section */
+.socialIcon-png{
+    width: 40px;
+}
+.footer-container{
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
