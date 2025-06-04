@@ -1,0 +1,131 @@
+/* laptop 993 -1200px */
+@media screen and (max-width:1200px) {
+    .banner-container {
+        margin: 40px 40px;
+        padding: 40px 40px;
+    
+    }
+    .webDevelopmentInfo-container {
+        padding: 10px 14px;
+    }
+    .webDevelopmentMyInfo-container {
+        margin: 40px 40px;
+        padding: 32px 40px;
+    }
+    .working-developer-png {
+        width: 300px;
+    }
+    iframe{
+        width: 900px;
+        height: 620px;
+    }
+    .card-container {
+        margin: 20px 40px;
+        gap: 20px;
+    }
+    .title{
+        font-size: 28px;
+    }
+}
+/* tablet 601px - 992px */ 
+@media screen and (max-width:992px) {
+    .nav-container {
+        padding: 10px 28px;
+    }
+    .banner-container {
+        margin: 20px 20px;
+        padding: 30px 30px;
+    
+    }
+    .webDevelopmentMyInfo-container {
+        margin: 20px 20px;
+        padding: 30px 30px;
+    }
+    .working-developer-png {
+        width: 200px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .webDevelopmentInfo-container {
+        margin: 20px 0px;
+    }
+    iframe{
+        width: 550px;
+        height: 340px;
+    }
+    .card-container {
+        margin: 14px 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 40%;
+        padding: 20px 20px;
+    }
+    .socialIcon-png {
+        width: 32px;
+    }
+    .footerTitle{
+        font-size: 10px;
+    }
+}
+/* mobail 0 - 600px */
+@media screen and (max-width:600px) {
+    .nav-container {
+        padding: 8px 10px;
+    }
+    .btn {
+        padding: 10px 10px;
+    
+    }
+    .title {
+        font-size: 28px;
+    }
+    .banner-img {
+        width: 100px;
+    }
+    .title{
+        font-size: 18px;
+        padding: 0px 4px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .banner-container {
+        margin: 20px 20px;
+        padding: 30px 30px;
+    
+    }
+    .webDevelopmentMyInfo-container {
+        background-color: #E6EDF9;
+        margin: 20px 20px;
+        flex-direction: column-reverse;
+        padding: 30px 30px;
+    }
+    .working-developer-png {
+        width: 200px;
+    }
+    iframe{
+        width: 332px;
+        height: 300px;
+    }
+    .card {
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .socialIcon-png {
+        width: 20px;
+    }
+    .footerTitle{
+        font-size: 14px;
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 20px 20px;
+    }
+}

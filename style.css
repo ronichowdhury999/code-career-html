@@ -1,8 +1,11 @@
 * {
     margin: 0;
 }
+
 .body {
     background-image: linear-gradient(to top, #9DE5FF, #E6EDF9);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
     font-family: 'Poppins';
     font-size: 22px;
@@ -63,26 +66,38 @@ img {
     border-radius: 10px;
     align-items: center;
 }
+
 .working-developer-png {
     width: 400px;
 }
 
 /* myInspiration-container */
-.myInspiration-container{
+.myInspiration-container {
     text-align: center;
-    margin:60px 40px ;
+    margin: 60px 40px;
+}
+
+iframe {
+    border-radius: 20px;
+    margin-top: 32px;
 }
 
 /* card section */
-.card-container{
-    margin: 100px 0px;
+.card-container {
+    margin: 40px 0px;
     display: flex;
     gap: 100px;
 }
-.icon-png{
+
+.icon-png {
     width: 60px;
 }
-.card{
+
+.card:hover {
+    background-image: linear-gradient(to top, #E6EDF9, #9DE5FF);
+}
+
+.card {
     width: 30%;
     padding: 30px 40px;
     background-image: linear-gradient(to top, #9DE5FF, #E6EDF9);
@@ -90,14 +105,24 @@ img {
     border-radius: 20px;
 }
 
+a:hover {
+    background-image: linear-gradient(to right, #4fed71, #d9e7d9);
+    padding: 2px 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 /* footer section */
-.socialIcon-png{
+.socialIcon-png {
     width: 40px;
 }
-.footer-container{
-    background: #FFFFFF;
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 80px;
+    padding: 20px 60px;
+}
+.footerTitle{
+    font-size: 18px;
 }
