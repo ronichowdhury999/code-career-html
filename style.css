@@ -105,7 +105,7 @@ iframe {
     border-radius: 20px;
 }
 
-a:hover {
+.a:hover {
     background-image: linear-gradient(to right, #4fed71, #d9e7d9);
     padding: 2px 8px;
     border-radius: 10px;
